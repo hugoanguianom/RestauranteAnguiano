@@ -1,0 +1,347 @@
+footer {
+    background-color: #ba7272;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navegador {
+    background-color: #ba7272;
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.imagen {
+    height: 80px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
+
+.imagen:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+}
+
+.imagen {
+    overflow: hidden;
+}
+
+
+#nav {
+    width: 750px;
+    margin: 0 auto;
+    list-style: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: background-color 0.3s ease;
+}
+
+#nav a {
+    display: block;
+    text-align: center;
+    width: 130px; 
+    text-decoration: none;
+    color: rgb(30, 31, 30);
+    transition: color 0.3s ease;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Indie Flower', ;
+    font-size: 25px;
+    color: rgb(30, 31, 30);
+    padding-left: 20px;
+}
+
+#nav li {
+    float: left;
+}
+.section.active {
+    background-color: #f0f0f0; /* Color de fondo para resaltar la sección activa */
+}
+
+#nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #c78181;
+}
+
+        
+.carousel-item{
+    height: 530px;
+    opacity: 80%;
+}
+.parrafo1 h2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color:black
+
+    
+}
+.parrafo1 p{
+    font-size: 20px;
+    font-family: 'Afacad', sans-serif;
+    text-align: center;
+    
+    color:rgb(63, 65, 65)
+}
+.parrafo1{
+    margin: auto;
+    padding: 50px;
+    width: 1000px;
+}
+.parrafo2{
+    margin-left: 210px;
+    padding: 50px;
+    width: 70%;
+    float: left;
+    
+}
+.parrafo2 h2{
+    
+    letter-spacing: 5px;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color:black
+    
+}
+.parrafo2 p{
+    font-size: 20px;
+    font-family: 'Afacad', sans-serif;
+    color:rgb(63, 65, 65)
+
+}
+.movimientos:hover{
+    transform: scale(1.1);
+   
+}
+
+    
+.imagenes{
+    display: flex;
+    justify-content: center;
+    
+}
+.imagenes img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    opacity: 90%;
+    margin: 0 10px; 
+    
+ 
+}
+.imagenes2{
+    
+    flex: 1 ;
+    margin: auto;
+    margin-left: 260px;
+    position: relative;
+    
+    
+    
+}
+.imagenes2 img{
+    height: 400px;
+    width: 500px;
+    display: flex;
+    opacity: 90%;
+    margin: 0 10px; 
+   
+ 
+}
+.btn {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    transform: translateY(-70%);
+    margin-right: 480px;
+    width: 200px;
+}
+.btn-light{
+
+    position: absolute;
+    top: 80%;
+    right: 0;
+    transform: translateY(-70%);
+    margin-right: 480px;
+    width: 200px;
+}
+.parrafo1 button{
+    opacity: 70%;
+    border: 2px rgb(193, 128, 128) solid;
+}
+iframe{
+    border-radius: 10%;
+    width: 100%;
+    
+}
+.imagenesnovedades{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.imagenesnovedades img{
+    height: 500px;
+    width: 900px;
+    
+    opacity: 90%;
+    margin: 0 10px; 
+    
+}
+.card{
+    margin-left: 250px;
+    width: 900px;
+}
+.card-img-top{
+    height: 30px;
+}
+.parrafo6 h2{
+    text-align: center;
+    letter-spacing: 5px;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color:black;
+    font-size: 40px;
+
+    
+}
+.parrafo6 p{
+    font-size: 20px;
+    font-family: 'Afacad', sans-serif;
+    text-align:left;
+    
+    color:rgb(63, 65, 65)
+}
+.parrafo6{
+    margin: auto;
+    padding: 50px;
+    width: 1000px;
+}
+.resaltu{
+    background-color: #e2bdbd;
+}
+.encabecero{
+    width: 100%;
+    height: 400px;
+    background-color: #f3d2d2;
+    
+}
+.encabecero h1{
+    text-align: center;
+    padding-top:135px ;
+    font-family: 'Afacad', sans-serif;
+    font-size: 50px;
+}
+.encabecero h4{
+    text-align: center;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 25px;
+    
+}
+
+.parrafo8{
+    margin-left: 240px;
+    padding: 50px;
+    width: 30%;
+    float: left;
+    
+}
+.parrafo8 h2{
+    
+    letter-spacing: 5px;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color:black
+    
+}
+.parrafo8 p{
+    font-size: 20px;
+    font-family: 'Afacad', sans-serif;
+    color:rgb(63, 65, 65)
+}
+.imagenes6 img{
+    
+    width: 400px;
+    height: 330px;
+    float: right;
+    margin-right: 300px;
+    margin-top: 70px;
+    
+}
+
+
+.parrafo9{
+    margin-right: 240px;
+    padding: 50px;
+    width: 30%;
+    float: right;
+    margin-top: 5%;
+    
+}
+.parrafo9 h2{
+    
+    letter-spacing: 5px;
+    font-family: 'Amatic SC', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    color:black
+    
+}
+.parrafo9 p{
+    font-size: 20px;
+    font-family: 'Afacad', sans-serif;
+    color:rgb(63, 65, 65)
+}
+.imagenes9 img{
+    
+    width: 420px;
+    height: 400px;
+    float: left;
+    margin-left: 300px;
+    margin-top: 70 px;
+    
+}
+.bottones button{
+    font-weight:100;
+    border:2px rgb(230, 151, 151) solid;
+    background-color: #efdddd;
+    height: 60px;
+    width: 160px;
+    
+}
+.bottones{
+    
+text-align: center;
+
+}
+.card-group{
+    justify-content: center;
+    padding-right: 200px;
+    
+}
+.encabecero2{
+    width: 100%;
+    height: 100px;
+    background-color: #f3d2d2;
+    
+}
+
+
+
+      
+  
+          
+         
+          
+     
+
